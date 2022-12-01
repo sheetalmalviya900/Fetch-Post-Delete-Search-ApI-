@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud With Fatch</title>
+</head>
+<style>
+    img{
+        width: 10vw;
+        height: 20vh;
+    }
+    button{
+        background-color: blue;
+    }
+    #price{
+        background-color: white;
+    }
+    #submit,#del,#serch{
+        margin-top: 2vh;
+    }
+</style>
+<body>
+    <div>
+        <div id="submit">
+            <input type="number" id="Id" placeholder="Id">
+            <input type="text" id="Title" placeholder="Title">
+            <input type="text" id="Price" placeholder="Price">
+            <input type="text" id="Description" placeholder="Description">
+            <input type="text" id="Category" placeholder="Category">
+            <input type="text" id="Image" placeholder="Image">
+            <button id="btn">Submit</button>
+        </div>
+        <div id="del">
+            <input type="number" id="id" placeholder="Enter the id">
+            <button id="delete">Delete</button>
+        </div>
+        <div id="serch">
+            <input type="text" id="category" placeholder="Enter the Category">
+            <button id="search">Search</button>
+        </div>
+    </div>
+    <div id="container">
+
+    </div>
+</body>
+<script src="./post.js"></script>
+
+</html>
